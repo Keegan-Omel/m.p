@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+main {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.navbar li {
+    display: inline;
+    height: 40px;
+    list-style-type: none;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: indigo;
+}
+
+.navbar li a:hover {
+    color: maroon;
+}
+
+.navbar {
+    text-align: right;
+    background-color: lightcoral;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding-right: 10px;
+    
+}
+
+body {
+    position: relative;
+    font-size: 20px;
+    background-color: aquamarine;
+    color: indigo;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
